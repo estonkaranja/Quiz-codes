@@ -46,5 +46,22 @@ of other forms and also,
 CSS was also used to make the webpage look great and appeling..
 Stylesheet was also used  to make it connect with the webpage.
 
+
+<a href="https://estonkaranja/github.io/Quiz-codes>click here</a>
+
 ---
-<a href="
+
+#### Contact information
+ 
+ This repository is also found on my github page
+ https://estonkaranja/github.io/Quiz-codes
+ 
+ ---
+ 
+ #### Licensed and copyright Information
+ 
+ This repository is license under the terms of **MIT** **Licenses**
+ 
+ copyright on 2019 Terms and conditions of @Moringa-School-Project
+ 
+ ---
