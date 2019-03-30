@@ -1,0 +1,1 @@
+var flavor=$("input:ratio{name=Flavor}:checked").val();

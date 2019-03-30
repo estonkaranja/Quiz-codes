@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/text.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <h1 style="color:blue;">Classroom coding</h1>
+    <svg height="130" width="500">
+        <defs>
+            <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
+                <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+            </linearGradient>
+        </defs>
+        <ellipse cx="150" cy="60" rx="305" ry="65" fill="url(#grad1)" />
+        <text fill="#ffffff" font-size="25" font-family="Verdana" x="20" y="66">Answer the questions below</text>
+    </svg>
+<script>
+    function allowDrop(ev) {
+        ev.preventDefault();
+    }
+
+    function drag(ev) {
+        ev.dataTransfer.setData("text", ev.target.id);
+    }
+
+    function drop(ev) {
+        ev.preventDefault();
+        var data = ev.dataTransfer.getData("text");
+        ev.target.appendChild(document.getElementById(data));
+    }
+</script>
+
+
+
+    </style>
+</head>
+
+
+
+<body>
+
+
+    <div class="junction text-centre">
+        <h1 style="color:blue;">Classroom coding Test</h1>
+        <i class="fas fa-calculator"></i>
+        <i class="fas fa-books"></i>
+        <i class="fas fa-file"></i>
+        <i class="fas fa-pen"></i>
+        <i class="fas fa-bars"></i>
+
+        <p>Please try this Questions</p>
+
+        <div class="cols-sm-4">
+
+
+        </div>
+        </style>
+        <form>
+        <form id="add">
+
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="container">
+
+                        <p><strong>1. what do you get when you multiply 50 * 60</strong></p>
+                        <div class="form-group"> <label for="add2">1st number:</label> <input id="add2"
+                                class="form-control" type="text" checked> </div>
+                        
+                            <form class="radio">
+                                <label>
+                                    <input type="radio" name="flavor" value="chocolate" checked>
+                                    3000
+                                </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="flavor" value="vanilla">
+                            6000
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="flavor" value="cookiesandcream">
+                            7000
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="flavor" value="numbers">
+                            8000
+                        </label>
+        </form>
+    </div>
+    </div>
+    </div>
+
+
+
+    <div class="cols-sm-4">
+        <p><strong>2. What is 30 * 6 </strong></p>
+        <div class="form-group"> <label for="add2">2nd number:</label> <input id="add2" class="form-control" type="text"
+                checked> </div>
+        <form class="radio">
+            <label>
+                <input type="radio" name="flavor" value="chocolate" checked>
+                11
+            </label>
+    </div>
+    <div class="radio">
+        <label>
+            <input type="radio" name="flavor" value="vanilla">
+            12
+        </label>
+    </div>
+    <div class="radio">
+        <label>
+            <input type="radio" name="flavor" value="cookiesandcream">
+            13
+        </label>
+    </div>
+    <div class="radio">
+        <label>
+            <input type="radio" name="flavor" value="numbers">
+            1
+        </label>
+        </form>
+        <div class="cols-sm-4">
+            <p><strong>3. Apart from 8 & 9, which other number can be added 1 & 2 so as the answer to become 10</strong>
+            </p>
+
+            <div class="form-group"> <label for="add2">3rd number:</label> <input id="add2" class="form-control"
+                    type="text" checked> </div>
+            <form class="radio">
+                <label>
+                    <input type="radio" name="flavor" value="chocolate" checked>
+                    11
+                </label>
+        </div>
+        <form class="radio">
+            <label>
+                <input type="radio" name="flavor" value="vanilla">
+                12
+            </label>
+    </div>
+    <div class="radio">
+        <label>
+            <input type="radio" name="flavor" value="cookiesandcream">
+            13
+        </label>
+    </div>
+    <div class="radio">
+        <label>
+            <input type="radio" name="flavor" value="numbers">
+            1
+        </label>
+        </form>
+    </div>
+    <div class="cols-sm-4">
+        <p><strong>4. How many triangle are there in a pyramid.</strong></p>
+
+
+        <div class="form-group"> <label for="add2">4th number:</label> <input id="add2" class="form-control" type="text"
+                checked> </div>
+        <form class="radio">
+            <label>
+                <input type="radio" name="flavor" value="chocolate" checked>
+                1
+            </label>
+    </div>
+    <div class="radio">
+        <label>
+            <input type="radio" name="flavor" value="vanilla">
+            2
+        </label>
+    </div>
+    <div class="radio">
+        <label>
+            <input type="radio" name="flavor" value="cookiesandcream">
+            3
+        </label>
+    </div>
+    <div class="radio"></div>
+    <label>
+        <input type="radio" name="flavor" value="numbers">
+        4
+    </label>
+    </form>
+    <p><strong>5. How many days are there in a year</strong></p>
+
+    <div class="form-group"> <label for="add2">5th number:</label> <input id="add2" class="form-control" type="text"
+            checked> </div>
+    <form class="radio">
+        <label>
+            <input type="radio" name="flavor" value="chocolate" checked>
+            3
+        </label>
+        </div>
+        <div class="radio">
+            <label>
+                <input type="radio" name="flavor" value="vanilla">
+                4
+            </label>
+        </div>
+        <div class="radio">
+            <label>
+                <input type="radio" name="flavor" value="cookiesandcream">
+                12
+            </label>
+        </div>
+        <div class="radio">
+            <label>
+                <input type="radio" name="flavor" value="creamy">
+                45
+            </label>
+    </form>
+    </div>
+
+    <body
+        background="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAHMArQMBIgACEQEDEQH/xAAaAAADAQEBAQAAAAAAAAAAAAACAwQAAQUG/8QAIRABAQEAAQQDAQEBAAAAAAAAAAIBYQMEERITFCFRMWL/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQQC/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oADAMBAAIRAxEAPwD5tmd8NrA474FkiyQBmCyR5IskC/UWSZkCyEIT6/rvqdkO+gQj1b1P9G9Aif1b1P8ARtgIn2Q7KjZDs8BCPAfB+yDZUKYe4HcBxmYBZgsl2cMmQDkjyRTJkwigyR5BkyPIAvI4FkG5A8hAjId9FGQ7kCpvThvThV8bnxgm9A7HCr0c2ASbHAdhVsA2FRLsA2VWyXUAm2QbijZBUiJ9lw3cBuKHThsy5OGzKK0ybMuxJsyKGYMyBzJkwgXMGZBswPIFJyHfRRkCyATejein0bYBJsB2FfoHYBHsAqFdQXUiJKgupV1BVSCSpKqVdSVWKJawvc/VNSVufokURJsyGMOiRRTJ0SGJPiUGmTohok6ZFcmBzA5k2ZQLyBZB2RwLI4Aj0c9FPpw56cIqXYBsK9gFSqJKgqoWVJVSCKpKqVdyTcqJKkm5V3JFyImvCqz9UVhW5+qh0YfGFdPD4xFNjD4wuD4wUyMOiQRh8ICmTZlycOnEVyZHkDmTMkWFbDmwo9Q1KETVBdSqqSrxSJakq5U3hN4rlLckXiq8IvATXhF4pvCLxUTXhW5+n2TX+qhsHwXE4fGYimQogmMw+fAp0HwRNTh03KB8HwmnqSbPVlFUybKWevI87iMRVP4HSvsy5vcwAqKtq7idLrrSoGyLMrqTpVXK45KtPZ91JNbmgnsi1N+CLzFE1k1/qi5wrY/RAz1eTM63Lzc6gs6qo9POvyZnccvKzrO/MLXr53PIvtcvHzr8izrEK9nO65Fnd8vE+fl3O4CvbzvN/rud5y8T7Gt9jUhXufd5c+5/08T7Gt9jSFe19zlze85eN9jXPnIV7G93yHe65eT8/Lnz8rCvUrueQb3HLzd64fmIV6NdfkFdblBvWDvVCrd6vJe9VJvUc3qCE+W8syo7m6751mB3zredZgbzrZu/1mQd87/W87/WZVxvO/1vO/1mRMbzv9bzrMGuedbzrMDedc86zKN51zyzA55Zxgf/2Q=="
+        alt="photo of background"></body>
+    </form>
+    <button type="submit" class="btn">submit!</button>
+    <div id="output"> </div>
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+<img id="drag1" src="data:image/jpeg;base64,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" draggable="true" ondragstart="drag(event)" width="336" height="69">
+
+
+
+
+
+</body>
+
+</html>
